@@ -1,4 +1,12 @@
-*NOTE: This document is intended to provide an example governance structure for any LF Energy Foundation project to consider as a starting point. All projects hosted by LF Energy Foundation are not bound by these governance polices, but in absence of any prior governance structure should consider this as a recommended structure*
+# Current TSC Members
+
+| Name | Organization | Chair | Github Id |
+| ---- | ------------ | ----- | --------- |
+| David P. Chassin | Stanford University | 2023 | [dchassin](https://github.com/dchassin)
+| Frank Tuffner | Pacific Northwest National Laboratory | - | [ftuffner](https://github.com/ftuffner)
+| Pedram Jahangiri | Amazon | - | [iut62elec](https://github.com/iut62elec)
+| Anthony James | Southern California Edison | - | [anjames16](https://github.com/anjames16)
+| David Pinner | National Rural Electric Cooperative Association | - | [dpinney](https://github.com/dpinney)
 
 # Overview
 
