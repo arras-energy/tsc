@@ -1,38 +1,29 @@
-```gfm
-# insert project logo - replace the below logo location with the location of your logo
-![](https://github.com/lf-energy/artwork/blob/master/projects/PROJECT NAME/PROJECT NAME-color.svg)
-```
+![https://github.com/lf-energy/artwork/blob/master/projects/arras-energy/arras-energy-color.svg](https://github.com/lf-energy/artwork/blob/main/projects/arras/horizontal/color/arras-horizontal-color.png)
 
-```gfm
-# Add badges that point to your LICENSE, CII status, and build environment (if it exists). Check out other badges to add at https://shields.io/
-![GitHub](https://img.shields.io/github/license/lfenergy/PROJECT NAME)
-[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/CII ID/badge)](https://bestpractices.coreinfrastructure.org/projects/CII ID)
-```
+# Arras Energy
 
-# PROJECT NAME
-
-_2-3 sentence description of the project_
+The purpose of the Arras Energy project is to enable and support the use of DOE's GridLAB-D technology by utilities, researches, and vendors with special attention to energy delivery systems.  The scope of the project include collaborative development under the Project License (as defined in [The Arras Project Charter](https://github.com/lf-energy/foundation/blob/main/project_charters/arras_charter.pdf)) supporting the missions, including documentation, testing, integration, and the creation of other artifacts that aid the development, deployment, operation, and adoption of the open source project.
 
 ## Install
 
-_Provide install instructions here or point to an INSTALL.md file_
+See [INSTALL.md] for details.
 
 ## Build
 
-_Provide build instructions here or point to an BUILD.md file_
+See [BUILD.md] for details.
 
 ## Discussion
 
 You can connect with the community in a variety of ways...
 
-- [LINK TO MAILING LIST](https://lists.lfenergy.org/g/xxxx-discussion)
-- [#PROJECT NAME channel on LF Energy Slack](https://slack.lfenergy.org)
+- [LF Energy Discussion Mailing List](https://lists.lfenergy.org/g/arras-discussion)
+- [#arras channel on LF Energy Slack](https://lfenergy.slack.com/archives/C03P2MYBDPG)
 
 ## Contributing
-Anyone can contribute to the PROJECT NAME project - learn more at [CONTRIBUTING.md](CONTRIBUTING.md)
+Anyone can contribute to the Arras Energy project - learn more at [CONTRIBUTING.md](CONTRIBUTING.md)
 
 ## Governance
-PROJECT NAME is a project hosted by the [LF Energy Foundation](https://lfenergy.org). This project's technical charter is located in [CHARTER.md](https://github.com/lf-energy/foundation/blob/main/project_charters/arras_charter.pdf) and has established it's own processes for managing day-to-day processes in the project at [GOVERNANCE.md](GOVERNANCE.md).
+Arras Energyis a project hosted by the [LF Energy Foundation](https://lfenergy.org). This project's technical charter is located in [The Arras Project Charter](https://github.com/lf-energy/foundation/blob/main/project_charters/arras_charter.pdf) and has established it's own processes for managing day-to-day processes in the project at [GOVERNANCE.md](GOVERNANCE.md).
 
 ## Reporting Issues
-To report a problem, you can open an [issue](https://github.com/lf-energy/PROJECT NAME/issues) in repository against a specific workflow. If the issue is senstive in nature or a security related issue, please do not report in the issue tracker but instead email PROJECT NAME-private@lists.lfenergy.org.
+To report a problem with this repository, you can open an [issue](https://github.com/arras-energy/tsc/issues) related to a specific workflow. If the issue is sensitive in nature or a security related issue, please do not report in the issue tracker but instead email arras-private@lists.lfenergy.org.
