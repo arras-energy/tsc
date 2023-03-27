@@ -30,7 +30,7 @@ Project committers will review the contribution in a timely manner, and advise o
 
 ## US Government Rights
 
-Many components of Arras Energy were developed with US Government funds. The following statement must be included the README.md file on each Arras repository to which the US Government contributed funding:
+Many components of Arras Energy were developed with US Government funds. The following statement must be included in the README.md file on each Arras repository to which the US Government contributed funding:
 
 *The U.S. Government is granted for itself and others acting on its behalf a nonexclusive, paid-up, irrevocable worldwide license in this data to reproduce, prepare derivative works, distribute copies to the public, perform publicly and display publicly, and to permit others to do so.  The specific term of the license can be identified by inquiry made to Contractor or the US Department of Energy.  Neither the United States nor the United States Department of Energy, nor any of their employees, makes any warranty, express or implied, or assumes any legal liability or responsibility for the accuracy, completeness or usefulness of any data, apparatus, product or process disclosed, or represents that its use would not infringe privately owned rights.*
 
