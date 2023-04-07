@@ -4,13 +4,9 @@
 
 The purpose of the Arras Energy project is to enable and support the use of DOE's GridLAB-D technology by utilities, researches, and vendors with special attention to energy delivery systems.  The scope of the project include collaborative development under the Project License (as defined in [The Arras Project Charter](https://github.com/lf-energy/foundation/blob/main/project_charters/arras_charter.pdf)) supporting the missions, including documentation, testing, integration, and the creation of other artifacts that aid the development, deployment, operation, and adoption of the open source project.
 
-## Install
+## Join Us
 
-See [INSTALL.md] for details.
-
-## Build
-
-See [BUILD.md] for details.
+You must [register for TSC meetings](https://zoom-lfx.platform.linuxfoundation.org/meeting/99509257595) to receive an invitation to join.
 
 ## Discussion
 
