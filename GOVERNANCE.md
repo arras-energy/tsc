@@ -6,7 +6,7 @@
 | Frank Tuffner | Pacific Northwest National Laboratory | - | [ftuffner](https://github.com/ftuffner)
 | Pedram Jahangiri | Amazon | - | [iut62elec](https://github.com/iut62elec)
 | Anthony James | Southern California Edison | - | [anjames16](https://github.com/anjames16)
-| David Pinney | National Rural Electric Cooperative Association | - | [dpinney](https://github.com/dpinney)
+| Allen Le | California Energy Commission | - | [Allen-Le-CEC](https://github.com/Allen-Le-CEC)
 
 # Overview
 
