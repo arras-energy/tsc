@@ -1,27 +1,15 @@
-_Use this file to detail how to make get support forthe project. The structure below is generally recommended, but can be changed to meet the needs of the project_
+Here are the ways to get help and/or lend a hand:
 
-# Getting Help
+- **Software usage**: Browse the online documentation at https://docs.gridlabd.us/.  The answer to most software usage questions are found there. If the command you are looking for isn't listed or isn't described correctly/sufficiently, then you should probably [create a ticket]((https://github.com/arras-energy/gridlabd/issues/new/choose)).
 
-There are a few ways to connect with the PROJECT NAME project:
+- **New project**: One common technique for starting a new project is to find a validation test for your use-case. If you know which module you should be using, you can browse the modules for an `autotest` file that validates the system for your problem.  Test files are named `test_*.glm`, where the name corresponds to the validation use-case.  There are about 750 validation tests which cover just about every use-case imagined for HiPAS GridLAB-D.
 
-* _provide email list details_
-* _provide Slack details_
-* _provide link to submit issue_
+- **Bugs**: If a command is not working as expected or as documented, then you should [submit a new problem report](https://github.com/arras-energy/gridlabd/issues/new/choose) describing the problem. Be sure to search the [existing issues](https://github.com/arras-energy/gridlabd/issues) first to see whether it has already been reported. If not, please provide an explanation of how to repeat the problem with the simplest possible example you can come up with.
 
-## How to Ask for Help
+- **Enhancements**: If you need a new feature, then you should [submit a new enhancement request](https://github.com/arras-energy/gridlabd/issues/new/choose). Be sure to search the [existing issues](https://github.com/arras-energy/gridlabd/issues) first to see whether it has already been requested. If not, please provide as much information as you can about the purpose of the enhancement and how it might be implemented.
 
-If you have trouble installing, building, or using PROJECT NAME, but there's not yet reason to suspect you've encountered a genuine bug,
-start by posting a question to the mailing list or Slack channel. This is the place for question such has "How do I...".
+- **Discussions**: Do you have a general question for the user community?  Please use the [discussions page](https://github.com/arras-energy/gridlabd/discussions) to post your question in the appropriate category.
 
-## How to report a bug or request an enhancement
+- **Security vulnerability**: If you think you have found a security vulnerability, please email the information to [email:security@arras.energy](security@arras.energy).
 
-PROJECT NAME manages bug and enhancement using it's [issue tracker]. The issue template will guide you on making an effective report.
-
-## How to report a security vulnerability
-
-If you think you've found a potential vulnerability in PROJECT NAME, please
-email security@PROJECT DOMAIN to responsibly disclose it.
-
-## Contributing a fix
-
-Please refer to [CONTRIBUTING.md](CONTRIBUTING.md) to make a project contribution.
+- **Code contributions**: Please refer to [CONTRIBUTING.md](CONTRIBUTING.md) to make a project contribution.
