@@ -1,1 +1,1 @@
-_Put in here your project's release mechanisms, processes, and timeline._
+Arras Energy is released when a `develop` branch is approved by the TSC.  There is no specified cadence for releases.
