@@ -18,7 +18,7 @@ If you need a new feature, then you should [submit a new enhancement request](ht
 
 ## Discussions
 
-Do you have a general question for the user community?  Please use the [discussions page](https://github.com/arras-energy/gridlabd/discussions) to post your question in the appropriate category. You can also send an email to [arras-discussion@lists.lfenergy.org](email:arras-discussions@lists.lfenergy.org). For sensitive topics, please use [arras-private@lists.lfenergy.org](email:arras-private@lists.lfenergy.org)
+Do you have a general question for the user community?  Please use the [discussions page](https://github.com/arras-energy/gridlabd/discussions) to post your question in the appropriate category. You can also send an email to [arras-discussion@lists.lfenergy.org](email:arras-discussions@lists.lfenergy.org). For sensitive topics, please use [arras-private@lists.lfenergy.org](email:arras-private@lists.lfenergy.org). A channel on [Slack](slack.lfenergy.org) can be reached using `#arras`.
 
 ## Security Issues
 
