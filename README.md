@@ -6,7 +6,7 @@ The purpose of the Arras Energy project is to enable and support the use of DOE'
 
 ## Join Us
 
-You must [register for TSC meetings]([https://zoom-lfx.platform.linuxfoundation.org/meeting/99509257595](https://zoom-lfx.platform.linuxfoundation.org/meeting/99509257595?password=0cac783f-620a-4aef-b66b-619a5d3063f4)) to receive an invitation to join.
+You must [register for TSC meetings](https://zoom-lfx.platform.linuxfoundation.org/meeting/99509257595?password=0cac783f-620a-4aef-b66b-619a5d3063f4) to receive an invitation to join.
 
 ## Discussion
 
