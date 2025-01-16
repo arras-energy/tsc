@@ -1,0 +1,51 @@
+# TSC Meeting on September 19, 2024
+
+1. Welcome / Roll call of voting members
+   - [x] David Chassin (SLAC/Eudoxys)
+   - [ ] Frank Tuffner (PNNL)
+   - [x] Pedram Jahangiri (Amazon)
+   - [x] Anthony James (SCE)
+   - [x] Allen Le (CEC)
+   - [x] Joseph Chongfuangprinya (Hitachi)
+   - [x] Alyona Teyber (SLAC)
+
+   * Non-voting attendees
+     - [ ] Bo Yang (Hitachi)     
+   
+   * Emeritus Members
+     - [ ] David Pinney (NRECA)
+     - [ ] Qing Tian (CEC)
+    
+   * A quorum is present (50%+1)
+     - [x] Yes
+     - [ ] No - Status update only
+    
+
+2. Updates/New discussion
+   * Votes on 2025 roles
+        * Chair : David Chassin (moved, seconded, approved)
+        * Vice Chair: Joseph Chongfuangprinya (moved, seconded, approved)
+        * Secretary: Alyona Teyber (moved, seconded, approved)
+   * gridlabd.us ->arras.energy transfer in progress. 
+	 * CEC RFP 24-801 awarded to Verdant Associates (David Chassin, Alyona Teyber, and Joseph Chongfuangprinya subs) - electrification scenario planning for all IOU CA feeders 
+        * Interest from SCE to learn from this project to build out a template to scale scenario analysis beyond CYME
+        * Data deployed on Azure
+        * Processing cloud platform - TBD
+        * TSC involement in the project 
+    * GridChat - gridlabd user companion 
+        * Webinar on Jan 30th to introduce
+    * GLOW issues with weather model attachment - on-going fix
+    * 5-10 additional regitrations from China (cloud companpies)
+
+
+3. Approval of minutes
+   - moved, seconded, approved
+   
+
+4. New action items
+   * Bring in TSC member to advise CEC RFP 24-801  
+   * Bring in Verdant to Arras TSC
+   * Need to find AWS infrastructure support
+
+6. Adjourn
+   - Mpved, seconded, approved
