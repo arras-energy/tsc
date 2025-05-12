@@ -1,0 +1,55 @@
+# TSC Meeting on May 12, 2025
+
+1. Welcome / Roll call of voting members
+   - [x] David Chassin (Eudoxys)
+   - [ ] Frank Tuffner (PNNL)
+   - [ ] Pedram Jahangiri (Amazon)
+   - [ ] Anthony James (SCE)
+   - [ ] Allen Le (CEC)
+   - [x] Joseph Chongfuangprinya (Hitachi)
+   - [x] Alyona Teyber (LLNL)
+   - [x] Duncan Ragsdale (Independent)
+   - [ ] Slobo Matic (GE Vernova)
+   - [ ] Bennet Meyers (SLAC)
+   - [x] Miguel Jimenez Aparicio (Sandia)
+
+   * Non-voting attendees
+     - [ ] Bo Yang (Hitachi)
+   
+   * Emeritus Members
+     - [ ] David Pinney (NRECA)
+     - [ ] Qing Tian (CEC)
+    
+   * A quorum is present (50%+1)
+     - [x] Yes
+     - [ ] No - Status update only
+    
+2. Old business
+  * (Dave) New release 4.3.14 DOE REGROW Updates (WECC240 modeling). Issues (failing deployment on main)
+  * (Dave) 4.3.15 in progress
+  * (Pedram) GridChat shutdown by 4/18/25 - shut down already - TBD next steps
+  * (Joseph) GLOW update - still fixing bugs. Downloads currently paused.
+  * (Dave) Azure testing in progress on Databrick (Ubuntu 20.4). Report success. 
+  * (Allen) CEC Distributed Energy and Electrification Analysis - kicked off 4/11/25.
+  * (Dave) Sandia training request (Miguel Jimenez)
+  * (Dave) Community building
+      * University outreach 
+      * IEEE T&D - Dave leading (CEC project x LF Energy basis - follow up with Allen / John )
+      * IEEE PES GM - TBD
+      * IEEE PES Summit: Achieving a More Reliable and Resilient Energy (Alyona)
+      * Refresh the brochure (https://github.com/slacgismo/hipas-gridlabd/blob/main/Task%207.2%20-%20Final%20Fact%20Sheet.pdf)
+  * (Alyona) LLNL Arras intro (compare and contrast GridLAB-D vs Arras)
+  * (Alyona) CSI Arras / gridlabd intro
+  * (All) Build a community of contributors (universities, industry, international)
+
+3. New business
+
+  
+4. Action Items
+   * (Dave) IEEE T&D Booth Prep (May 2026) - Tutorial / Booth?
+
+5. Approval of minutes
+   - moved, seconded, approved
+
+6. Adjourn
+   - Moved, seconded, approved
