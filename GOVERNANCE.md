@@ -8,6 +8,12 @@
 | Anthony James | Southern California Edison | - | [anjames16](https://github.com/anjames16)
 | Allen Le | California Energy Commission | - | [Allen-Le-CEC](https://github.com/Allen-Le-CEC)
 
+## Voting Members
+
+1. Members must attend 1/3 members to vote
+2. Voting who do not attend 3 meetings in a row without notice to the secretary will be removed from Voting Members list and remain on the members list
+3. Members who have not attended for one will be move to Emeritus Member.
+
 # Overview
 
 This project aims to be governed in a transparent, accessible way for the benefit of the community. All participation in this project is open and not bound to corporate affilation. Participants are bound to the project's [Code of Conduct].
