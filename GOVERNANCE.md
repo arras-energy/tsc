@@ -1,4 +1,4 @@
-# Current TSC Members
+# TSC Members
 
 | Name | Organization | Chair | Github Id |
 | ---- | ------------ | ----- | --------- |
@@ -8,11 +8,15 @@
 | Anthony James | Southern California Edison | - | [anjames16](https://github.com/anjames16)
 | Allen Le | California Energy Commission | - | [Allen-Le-CEC](https://github.com/Allen-Le-CEC)
 
-## Voting Members
+## Membership
 
-1. Members must attend 1/3 members to vote
-2. Voting who do not attend 3 meetings in a row without notice to the secretary will be removed from Voting Members list and remain on the members list
-3. Members who have not attended for one will be move to Emeritus Member.
+The Secretary shall keep records of meeting attendance and maintain a current record of regular member, voting members, and emeritus members according the following qualification guidelines.
+
+1. **Members** are attendees at regular TSC meetings who have attended the last 12 regular TSC meetings or notified the Secretary prior to the meeting of their absence at a regular TSC meeting.
+
+2. **Voting members** are members who have attending at least the last three regular meetings of the TSC or notified the Secretary prior to the meeting of their absence at a regular TSC meeting.
+
+3. **Emeritus members** are regular TSC meeting attendees who have not attended one or more of the last 12 regular TSC meeting and have not notified the Secretary prior to the meeting of their absence at a regular TSC meeting. An emeritus member may return to member and/or voting member status by meeting the qualifications guidelines above.
 
 # Overview
 
@@ -20,7 +24,7 @@ This project aims to be governed in a transparent, accessible way for the benefi
 
 # Project roles
 
-## Contributor
+## Contributors
 
 The contributor role is the starting role for anyone participating in the project and wishing to contribute code.
 
