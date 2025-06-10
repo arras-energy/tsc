@@ -14,7 +14,7 @@ The Secretary shall keep records of meeting attendance and maintain a current re
 
 1. **Members** are attendees at regular TSC meetings who have attended the last 12 regular TSC meetings or notified the Secretary prior to the meeting of their absence at a regular TSC meeting.
 
-2. **Voting members** are members who have attending at least the last three regular meetings of the TSC or notified the Secretary prior to the meeting of their absence at a regular TSC meeting.
+2. **Voting members** are members who have attending the last three regular meetings of the TSC or notified the Secretary prior to the meeting of their absence at a regular TSC meeting.
 
 3. **Emeritus members** are regular TSC meeting attendees who have not attended one or more of the last 12 regular TSC meeting and have not notified the Secretary prior to the meeting of their absence at a regular TSC meeting. An emeritus member may return to member and/or voting member status by meeting the qualifications guidelines above.
 
