@@ -10,7 +10,7 @@
 
 ## Membership
 
-The Secretary shall keep records of meeting attendance and maintain a current record of regular member, voting members, and emeritus members according the following qualification guidelines.
+The Secretary shall keep records of meeting attendance and maintain a current record of regular members, voting members, and emeritus members according the following qualification guidelines.
 
 1. **Members** are attendees at regular TSC meetings who have attended the last 12 regular TSC meetings or notified the Secretary prior to the meeting of their absence at a regular TSC meeting.
 
