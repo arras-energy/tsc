@@ -13,10 +13,14 @@
      - Update to Python 3.12.
      - Update to latest Python modules.
 
-2. Development Agenda
+2. Development 
    - Marimo support library
    - PandaPower integration
      
-3. Research Agenda
+3. Research 
    - UI/UX design for basic modeling tools
    - Powsybl integration
+
+4. Community Support
+   - Short courses on recent addition (pypower, marimo, etc.)
+   - College syllabus
