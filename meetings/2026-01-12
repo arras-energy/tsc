@@ -1,0 +1,52 @@
+# TSC Meeting on 12 January 2026
+
+1. Welcome / Roll call of voting members
+      - [x] David Chassin (Eudoxys)
+      - [ ] Allen Le (CEC)
+      - [x] Joseph Chongfuangprinya (Hitachi)
+      - [x] Alyona Teyber (LLNL)
+
+   * Non-voting members
+      - [ ] Frank Tuffner (PNNL)
+      - [ ] Pedram Jahangiri (Amazon)
+      - [ ] Anthony James (SCE - no longer at SCE)
+      - [ ] Bo Yang (Hitachi)
+      - [ ] Duncan Ragsdale (Independent)
+      - [ ] Slobo Matic (GE Vernova)
+      - [ ] Bennet Meyers (SLAC)
+      - [ ] Miguel Jimenez Aparicio (Sandia)
+   
+   * Emeritus Members
+      - [ ] David Pinney (NRECA)
+      - [ ] Qing Tian (CEC)
+    
+   A quorum is present (50%+1)
+   - [x] Yes
+   - [ ] No - Status update only
+
+2. Old business
+  - (Dave) Update the Arras Brochure - in progress
+  - (Alyona) Docker alternatives docs - PR https://github.com/arras-energy/gridlabd/pull/372 - merged
+  - (Dave) 4.3.17 in progress - minor fixes, pypower DC line, psse2glm converter fix, US fed NOAA data shifted to Herbie, new PROJECT tool for PM, ZIP loads supported, power plants supported change (tbd) - Ubuntu 24 issue 
+  - (Joseph) GLOW update - IEEE PES GM presentation submitted - tbd
+  - (Allen) CEC Distributed Energy and Electrification Analysis - data task in review with CEC (IT request pending). Cal Advocates interest in participating ARRAS dev. Paused until new data is in.
+  - (Dave) Community building
+    - University outreach - find lead for this task
+    - IEEE T&D - Dave leading '27 strategy dev (booth or tutorial) - proposal to LF Energy tbd
+    - IEEE PES GM - Tutorial proposals in '26. Plans for '27 TBD
+    - (Dave) Refresh the brochure (https://github.com/slacgismo/hipas-gridlabd/blob/main/Task%207.2%20-%20Final%20Fact%20Sheet.pdf) - tbd
+  - (All) Build a community of contributors (universities, industry, international)
+    - IEEE T&D '27 planning (Dave)
+    - IEEE PES GM '27 planning (Joseph)
+
+3. New business
+  - 2026 elections for Chair (Alyona), Vice-chair, and Secretary (Joseph) - by acclimation 
+
+4. Action Items
+  - None
+
+5. Approval of minutes
+  - approved 
+
+6. Adjourn
+  - approved
