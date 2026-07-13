@@ -1,0 +1,56 @@
+# TSC Meeting on 13 July 2026
+
+1. Welcome / Roll call of voting members
+      - [x] David Chassin (Eudoxys)
+      - [ ] Allen Le (CEC)
+      - [ ] Joseph Chongfuangprinya (Hitachi)
+      - [x] Alyona Teyber (LLNL)
+
+   * Non-voting members
+      - [ ] Frank Tuffner (PNNL)
+      - [ ] Pedram Jahangiri (Amazon)
+      - [ ] Anthony James (SCE - no longer at SCE)
+      - [ ] Bo Yang (Hitachi)
+      - [ ] Duncan Ragsdale (Independent)
+      - [ ] Slobo Matic (GE Vernova)
+      - [ ] Bennet Meyers (SLAC)
+      - [ ] Miguel Jimenez Aparicio (Sandia)
+      - [x] Tyler Nam (CEC) [2/3] - voted in by the TSC
+      - [  ] Aaron Anand 
+
+   * Emeritus Members
+      - [ ] David Pinney (NRECA)
+      - [ ] Qing Tian (CEC)
+    
+   A quorum is present (50%+1)
+   - [ ] Yes
+   - [x] No - Status update only
+
+2. Old business
+  - (Dave) Update the Arras Brochure - in progress (potential leverage LLNL x CEC-DEEA project for this - would need contract mods)
+  - (Dave) 4.3.17 in progress - minor fixes, pypower DC line, psse2glm converter fix, US fed NOAA data shifted to Herbie, new PROJECT tool for PM, ZIP loads supported, power plants supported change (tbd) - Ubuntu 24 issue 
+  - (Allen) CEC Distributed Energy and Electrification Analysis - data task in review with CEC (mgmt request pending). May get data from CPUC. Or CEC may get data directly. Paused until new data is in. Scope down CYME data to SCE only (for 1st revision)
+  - (Dave) Community building
+    - University outreach - find lead for this task
+    - IEEE T&D - Dave leading '27 strategy dev (booth or tutorial) - proposal to LF Energy (denied) - need external funding (DOE?) - explore Eudoxys/Partnerships with Universities 
+    - IEEE PES GM - Plans for '27 TBD
+    - (Dave) Refresh the brochure (https://github.com/slacgismo/hipas-gridlabd/blob/main/Task%207.2%20-%20Final%20Fact%20Sheet.pdf) - tbd
+  - (All) Build a community of contributors (universities, industry, international)
+    - IEEE T&D '27 planning (Dave)
+    - IEEE PES GM '27 planning (Joseph/Alyona)
+    - Reach out to users of Arras... check feedback. 
+    - 60 interns at Livermore (Alyona)
+  - (Alyona/Dave) SIG review prep (concerted effort to solidify capabilities from CEC's effort for utilities to have access to advanced modeling tools) - DEEA effort to enable this - Oct 7th, 2026
+  - (Dave) AWS update for GLD and OpenFido for data sources location (TBD) - Melody finished the audit (no major issues (2 empty buckets)
+
+3. New business
+
+
+4. Action Items
+  - ...
+
+5. Approval of minutes
+  - Approved
+
+6. Adjourn
+  - Adjourned
