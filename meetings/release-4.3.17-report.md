@@ -51,7 +51,7 @@ None
 
 1. Change release numbering schema to use the release year for the major number and the sequence number for the minor number, e.g., `26.1.1-260804`. The patch number and build id schemas remain the same, i.e., sequential and based on build date, respectively. This would conform more to what many other applications are doing now. This would also eliminate confusion with PNNL's release numbering which is similar but with orthogonal capabilities. This could be done immediately with release 4.3.17, which might make sense given how long it's been delayed.
 
-2. Begin an effort to split the `gridlabd` module structure into separate repositories that are installed separate as required, e.g.,
+2. Begin an effort to split the `gridlabd` repository into separate repositories that are installed only as required, e.g.,
     - `engine`: the main C/C++ simulation engine
     - `cloud`: support websites
     - `converters`: model and data converters
@@ -60,4 +60,4 @@ None
     - `python`: python environment
     - `subcommands`: subcommands
     - `tools`: tools
-  The main benefit of this approach is to speed up build/validation performance and simplify maintenance of the entire Arras ecosystem.
+  The main benefit of this approach is to speed up build, install, and validation performance and simplify maintenance of the entire Arras ecosystem.
