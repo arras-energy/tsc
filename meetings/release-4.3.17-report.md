@@ -63,3 +63,5 @@ None
   The main benefit of this approach is to speed up build, install, and validation performance and simplify maintenance of the entire Arras ecosystem.
 
 3. Stop using the `develop` branch to collect updates to `master` branch and make all pull requests directly to `master`. This should reduce by more than 50% the number of build/validate actions on github.
+
+4. Remove stale issues (but we need to define "stale" better).
