@@ -4,7 +4,7 @@
 - [x] Have an open and documented technical governance, including:
    - [x] A README file in each code repository, welcoming new community members to the project and explaining why the project is useful and how to get started.
    - [x] A GOVERNANCE file that documents the project’s technical governance. See [Governance](https://github.com/arras-energy/tsc/blob/main/GOVERNANCE.md).
-   - [ ] All current Technical Steering Committee members specified in the ‘Technical Steering Committee (TSC)’ committee in LFX Project Control Center (see [Collaboration Tools Guide](https://tac.lfenergy.org/tools/collaboration.html) for details).
+   - [x] All current Technical Steering Committee members specified in the ‘Technical Steering Committee (TSC)’ committee in LFX Project Control Center (see [Collaboration Tools Guide](https://tac.lfenergy.org/tools/collaboration.html) for details).
    - [x] A CODEOWNERS or COMMITTERS file to define individuals or teams that are responsible for code in a repository, as well as documenting current project owners and current and emeritus committers. See [Committers](https://github.com/arras-energy/tsc/blob/main/COMMITTERS.csv).
 - [x] Documentation of the architecture (aka high-level design) of the software produced by the project (aligns with this OpenSSF Best Practices Silver badge requirement). See [gridlabd/README](https://github.com/arras-energy/gridlabd/blob/master/README.md).
   - [ ] The project should work with the Archimate SIG to ensure the project’s functional architecture is built in the LF Energy ArchiMate tool.
