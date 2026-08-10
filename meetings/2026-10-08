@@ -1,0 +1,57 @@
+# TSC Meeting on 10 August 2026
+
+1. Welcome / Roll call of voting members
+      - [x] David Chassin (Eudoxys)
+      - [ ] Allen Le (CEC)
+      - [x] Joseph Chongfuangprinya (Hitachi)
+      - [x] Alyona Teyber (LLNL)
+
+   * Non-voting members
+      - [ ] Frank Tuffner (PNNL)
+      - [ ] Pedram Jahangiri (Amazon)
+      - [ ] Anthony James (SCE - no longer at SCE)
+      - [ ] Bo Yang (Hitachi)
+      - [ ] Duncan Ragsdale (Independent)
+      - [ ] Slobo Matic (GE Vernova)
+      - [ ] Bennet Meyers (SLAC)
+      - [ ] Miguel Jimenez Aparicio (Sandia)
+      - [ ] Tyler Nam (CEC) [2/3] - voted in by the TSC
+      - [ ] Aaron Anand 
+
+   * Emeritus Members
+      - [ ] David Pinney (NRECA)
+      - [ ] Qing Tian (CEC)
+    
+   A quorum is present (50%+1)
+   - [x] Yes
+   - [ ] No - Status update only
+
+2. Old business
+  - (Dave) Updated the Arras Brochure - For review: https://github.com/arras-energy/tsc/pull/42
+  - (Dave) 4.3.17 in progress - https://github.com/arras-energy/tsc/pull/41
+  - (Dave) Updated Roadmap https://github.com/arras-energy/tsc/pull/43
+  - (Allen) CEC Distributed Energy and Electrification Analysis - data task in review with CEC (mgmt request pending). May get data from CPUC. Or CEC may get data directly. Paused until new data is in. Scope down CYME data to SCE only (for 1st revision).
+  - (Dave) Community building
+    - University outreach - find lead for this task
+    - IEEE T&D - Dave leading '27 strategy dev (booth or tutorial) - proposal to LF Energy (denied) - need external funding (DOE?) - explore Eudoxys/Partnerships with Universities 
+    - IEEE PES GM 2027 (SF, CA) - Plans for '27. 
+  - (All) Build a community of contributors (universities, industry, international)
+    - IEEE T&D '27 planning (Dave)
+    - IEEE PES GM '27 planning (Joseph/Alyona)
+    - Reach out to users of Arras... check feedback. 
+    - 60 interns at Livermore (Alyona)
+  - (Alyona/Dave) SIG review prep (concerted effort to solidify capabilities from CEC's effort for utilities to have access to advanced modeling tools) - DEEA effort to enable this - Oct 7th, 2026
+  
+3. New business
+  
+
+4. Action Items
+  - NSF proposal (Dave)
+  - Review 4.3.17 (All)
+  - Dave will add priorties (uegent, high, medium, low)(Dave)
+  
+5. Approval of minutes
+  - Approved
+
+6. Adjourn
+  - Adjourned
