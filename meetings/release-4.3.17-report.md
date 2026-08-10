@@ -49,10 +49,10 @@ None
 
 # Recommendations
 
-1. Change release numbering schema to use the release year for the major number and the sequence number for the minor number, e.g., `26.1.1-260804`. The patch number and build id schemas remain the same, i.e., sequential and based on build date, respectively. This would conform more to what many other applications are doing now. This would also eliminate confusion with PNNL's release numbering which is similar but with orthogonal capabilities. This could be done immediately with release 4.3.17, which might make sense given how long it's been delayed.
+- [ ] Change release numbering schema to use the release year for the major number and the sequence number for the minor number, e.g., `26.1.1-260804`. The patch number and build id schemas remain the same, i.e., sequential and based on build date, respectively. This would conform more to what many other applications are doing now. This would also eliminate confusion with PNNL's release numbering which is similar but with orthogonal capabilities. This will be done starting with the next release in Fall 2026. (Approved by TSC 8/10/25)
 
-2. Begin an effort to split the `gridlabd` repository into separate repositories that are installed only as required, e.g.,
-    - `engine`: the main C/C++ simulation engine
+- [ ] Begin an effort to split the `gridlabd` repository into separate repositories that are installed only as required, e.g.,
+    - `arras`: the main C/C++ simulation engine
     - `cloud`: support websites
     - `converters`: model and data converters
     - `geodata`: GIS support
@@ -60,8 +60,8 @@ None
     - `python`: python environment
     - `subcommands`: subcommands
     - `tools`: tools
-  The main benefit of this approach is to speed up build, install, and validation performance and simplify maintenance of the entire Arras ecosystem.
+  The main benefit of this approach is to speed up build, install, and validation performance and simplify maintenance of the entire Arras ecosystem. (Approved by TSC 8/10/25)
 
-3. Stop using the `develop` branch to collect updates to `master` branch and make all pull requests directly to `master`. This should reduce by more than 50% the number of build/validate actions on github.
+- [ ] Stop using the `develop` branch to collect updates to `master` branch and make all pull requests directly to `master`. This should reduce by more than 50% the number of build/validate actions on github. (Approved by TSC 8/10/25)
 
-4. Remove stale issues (but we need to define "stale" better).
+- [ ] Prioritize open issues using urgent/high/medium/low.  (Approved by TSC 8/10/25)
