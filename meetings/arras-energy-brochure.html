@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arras Energy — LF Energy Project Brochure</title>
+<style>
+  :root{
+    --ink:#101a24;
+    --paper:#ece6d6;
+    --paper-2:#e2dbc7;
+    --wire:#2c5f74;
+    --wire-soft:#c7d6da;
+    --copper:#b8722e;
+    --copper-soft:#e7c9a8;
+    --volt:#4f7b5e;
+    --line:#c9beA1;
+    --max:1040px;
+  }
+
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:"Public Sans", "IBM Plex Sans", Arial, sans-serif;
+    line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  @font-face{ /* fallbacks handled by stack below; no external font-face needed */ }
+
+  .display{
+    font-family:"Space Grotesk","Arial Narrow",Arial,sans-serif;
+    letter-spacing:-0.01em;
+  }
+  .mono{
+    font-family:"IBM Plex Mono","SFMono-Regular",Menlo,Consolas,monospace;
+    letter-spacing:0.02em;
+  }
+
+  a{color:var(--wire);}
+
+  .wrap{max-width:var(--max);margin:0 auto;padding:0 32px;}
+
+  /* ---------- Header rail ---------- */
+  .rail{
+    background:var(--ink);
+    color:var(--paper);
+    padding:14px 0;
+  }
+  .rail .wrap{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    font-size:12px;
+  }
+  .rail .mono{opacity:.75;}
+  .rail .tag{
+    display:inline-flex;align-items:center;gap:8px;
+  }
+  .dot{width:7px;height:7px;border-radius:50%;background:var(--volt);box-shadow:0 0 0 3px rgba(79,123,94,.25);}
+
+  /* ---------- Hero ---------- */
+  .hero{
+    padding:72px 0 64px;
+    position:relative;
+    overflow:hidden;
+    border-bottom:1px solid var(--line);
+  }
+  .hero-grid{
+    position:absolute;
+    inset:0;
+    background-image:
+      linear-gradient(var(--line) 1px, transparent 1px),
+      linear-gradient(90deg, var(--line) 1px, transparent 1px);
+    background-size:56px 56px;
+    opacity:.28;
+    pointer-events:none;
+    mask-image:linear-gradient(to bottom, transparent, black 20%, black 70%, transparent);
+  }
+  .eyebrow{
+    display:inline-flex;
+    align-items:center;
+    gap:10px;
+    font-size:12px;
+    text-transform:uppercase;
+    letter-spacing:.14em;
+    color:var(--wire);
+    margin-bottom:22px;
+  }
+  .eyebrow::before{
+    content:"";
+    width:22px;height:1px;background:var(--copper);
+  }
+  h1.display{
+    font-size:clamp(40px,6.4vw,72px);
+    font-weight:600;
+    line-height:1.02;
+    margin:0 0 18px;
+    color:var(--ink);
+  }
+  h1.display span{color:var(--copper);}
+  .lede{
+    font-size:19px;
+    max-width:640px;
+    color:#33404a;
+    margin:0 0 34px;
+  }
+  .cta-row{display:flex;flex-wrap:wrap;gap:14px;}
+  .btn{
+    display:inline-flex;align-items:center;gap:8px;
+    padding:12px 20px;
+    border-radius:2px;
+    font-size:14px;
+    font-weight:600;
+    text-decoration:none;
+    border:1px solid var(--ink);
+  }
+  .btn.solid{background:var(--ink);color:var(--paper);}
+  .btn.ghost{background:transparent;color:var(--ink);}
+  .btn.solid:hover{background:var(--wire);border-color:var(--wire);}
+  .btn.ghost:hover{border-color:var(--copper);color:var(--copper);}
+
+  .hero-meta{
+    position:relative;
+    margin-top:52px;
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:0;
+    border-top:1px solid var(--line);
+    padding-top:22px;
+  }
+  .hero-meta div{padding-right:20px;}
+  .hero-meta .k{font-size:11px;text-transform:uppercase;letter-spacing:.1em;color:#6b7178;margin-bottom:6px;}
+  .hero-meta .v{font-size:15px;font-weight:600;}
+
+  /* ---------- Section shell ---------- */
+  section{padding:64px 0;border-bottom:1px solid var(--line);}
+  section:last-of-type{border-bottom:none;}
+  .kicker{
+    font-size:12px;
+    text-transform:uppercase;
+    letter-spacing:.14em;
+    color:var(--copper);
+    margin:0 0 10px;
+    display:flex;align-items:center;gap:10px;
+  }
+  .kicker .mono{font-size:11px;color:#8a8f78;}
+  h2.display{
+    font-size:clamp(26px,3.6vw,36px);
+    font-weight:600;
+    margin:0 0 22px;
+    max-width:760px;
+  }
+  p.body-lg{font-size:17px;max-width:700px;color:#2a343d;}
+
+  /* ---------- Overview two-col ---------- */
+  .overview-grid{
+    display:grid;
+    grid-template-columns:1.1fr .9fr;
+    gap:48px;
+    align-items:start;
+  }
+  .stack-card{
+    background:var(--paper-2);
+    border:1px solid var(--line);
+    padding:20px 22px;
+    margin-bottom:14px;
+  }
+  .stack-card .lbl{
+    font-size:11px;text-transform:uppercase;letter-spacing:.1em;color:var(--wire);margin-bottom:6px;
+  }
+  .stack-card .name{font-weight:700;font-size:16px;margin-bottom:4px;}
+  .stack-card .desc{font-size:13.5px;color:#4a5158;}
+
+  /* ---------- Use case grid ---------- */
+  .uc-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:1px;
+    background:var(--line);
+    border:1px solid var(--line);
+  }
+  .uc{
+    background:var(--paper);
+    padding:22px 18px 24px;
+    min-height:140px;
+    position:relative;
+  }
+  .uc .num{
+    font-family:"IBM Plex Mono",monospace;
+    font-size:12px;
+    color:var(--copper);
+    display:block;
+    margin-bottom:14px;
+  }
+  .uc .t{font-weight:700;font-size:14.5px;line-height:1.3;}
+
+  /* ---------- Timeline (real chronological sequence) ---------- */
+  .timeline{position:relative;padding-left:28px;}
+  .timeline::before{
+    content:"";
+    position:absolute;left:5px;top:6px;bottom:6px;width:2px;
+    background:repeating-linear-gradient(to bottom, var(--wire) 0 6px, transparent 6px 12px);
+  }
+  .tl-item{position:relative;padding:0 0 30px 20px;}
+  .tl-item:last-child{padding-bottom:0;}
+  .tl-item::before{
+    content:"";
+    position:absolute;left:-28px;top:4px;
+    width:11px;height:11px;border-radius:50%;
+    background:var(--paper);
+    border:2px solid var(--wire);
+  }
+  .tl-item.now::before{background:var(--copper);border-color:var(--copper);}
+  .tl-year{font-family:"IBM Plex Mono",monospace;font-size:13px;color:var(--wire);margin-bottom:4px;}
+  .tl-item.now .tl-year{color:var(--copper);}
+  .tl-title{font-weight:700;font-size:15.5px;margin-bottom:3px;}
+  .tl-desc{font-size:14px;color:#4a5158;max-width:560px;}
+
+  /* ---------- Spotlight ---------- */
+  .spotlight{
+    background:var(--ink);
+    color:var(--paper);
+    border-radius:2px;
+    padding:40px 40px 36px;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:36px;
+    align-items:center;
+  }
+  .spotlight .kicker{color:var(--copper-soft);}
+  .spotlight h3{font-family:"Space Grotesk",sans-serif;font-size:26px;margin:0 0 14px;}
+  .spotlight p{font-size:14.5px;color:#c7cdd2;margin:0 0 18px;}
+  .spot-diagram{
+    font-family:"IBM Plex Mono",monospace;
+    font-size:12px;
+    background:#182531;
+    border:1px solid #2a3a47;
+    padding:18px;
+    color:#8fb3c4;
+  }
+  .spot-diagram .step{display:flex;gap:10px;padding:6px 0;border-bottom:1px dashed #2a3a47;}
+  .spot-diagram .step:last-child{border-bottom:none;}
+  .spot-diagram .arrow{color:var(--copper-soft);}
+
+  /* ---------- Stakeholders ---------- */
+  .who-row{display:flex;flex-wrap:wrap;gap:10px;margin-top:8px;}
+  .chip{
+    font-size:13px;
+    padding:8px 14px;
+    border:1px solid var(--wire);
+    border-radius:100px;
+    color:var(--wire);
+    background:rgba(44,95,116,.06);
+  }
+
+  /* ---------- Get involved ---------- */
+  .involve-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:1px;
+    background:var(--line);
+    border:1px solid var(--line);
+    margin-top:8px;
+  }
+  .inv{background:var(--paper);padding:24px 20px;}
+  .inv .k{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:#6b7178;margin-bottom:8px;}
+  .inv .v{font-weight:700;font-size:15px;margin-bottom:6px;}
+  .inv a{font-size:13px;text-decoration:none;border-bottom:1px solid var(--copper-soft);color:var(--ink);}
+  .inv a:hover{border-color:var(--copper);color:var(--copper);}
+
+  /* ---------- Footer ---------- */
+  footer{
+    padding:34px 0 46px;
+    font-size:12px;
+    color:#6b7178;
+    display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:14px;
+  }
+  footer .mono{color:#6b7178;}
+
+  @media (max-width:820px){
+    .overview-grid{grid-template-columns:1fr;}
+    .uc-grid{grid-template-columns:repeat(2,1fr);}
+    .hero-meta{grid-template-columns:repeat(2,1fr);row-gap:20px;}
+    .spotlight{grid-template-columns:1fr;padding:30px 26px;}
+    .involve-grid{grid-template-columns:1fr;}
+  }
+  @media (prefers-reduced-motion: reduce){
+    *{scroll-behavior:auto !important;}
+  }
+</style>
+</head>
+<body>
+
+  <div class="rail">
+    <div class="wrap">
+      <span class="tag"><span class="dot"></span><span class="mono">LF ENERGY // HOSTED PROJECT</span></span>
+      <span class="mono">SANDBOX STAGE · AUG 2026</span>
+    </div>
+  </div>
+
+  <header class="hero">
+    <div class="hero-grid"></div>
+    <div class="wrap">
+      <div class="eyebrow">Open source · power systems simulation</div>
+      <h1 class="display">Arras <span>Energy</span></h1>
+      <p class="lede">The open-source engine for simulating tomorrow's electric grid — built for utilities, researchers, and regulators who need to model distributed energy, extreme weather, and deep electrification at scale, without a vendor license.</p>
+      <div class="cta-row">
+        <a class="btn solid" href="https://www.arras.energy">Visit arras.energy</a>
+        <a class="btn ghost" href="https://github.com/arras-energy/gridlabd">View source on GitHub</a>
+      </div>
+
+      <div class="hero-meta">
+        <div><div class="k">Formerly</div><div class="v">HiPAS GridLAB-D</div></div>
+        <div><div class="k">Core engine since</div><div class="v">2008</div></div>
+        <div><div class="k">Governed by</div><div class="v">LF Energy Foundation</div></div>
+        <div><div class="k">Lifecycle stage</div><div class="v">Sandbox</div></div>
+      </div>
+    </div>
+  </header>
+
+  <section>
+    <div class="wrap">
+      <div class="kicker">Overview <span class="mono">/ 01</span></div>
+      <h2 class="display">A commercial-grade successor to GridLAB-D, now stewarded in the open.</h2>
+      <div class="overview-grid">
+        <p class="body-lg">Arras began as GridLAB-D, developed for the U.S. Department of Energy by Pacific Northwest National Laboratory to study grid modernization. In 2018, the California Energy Commission funded SLAC National Accelerator Laboratory to harden it into HiPAS GridLAB-D — a commercial-grade simulation engine. LF Energy adopted the project in 2022 and renamed it Arras Energy, giving it a neutral, vendor-independent home for continued development.</p>
+        <div>
+          <div class="stack-card">
+            <div class="lbl">Back end</div>
+            <div class="name">Arras (GridLAB-D)</div>
+            <div class="desc">The simulation engine — large-scale, unbalanced three-phase distribution power flow.</div>
+          </div>
+          <div class="stack-card">
+            <div class="lbl">Front end</div>
+            <div class="name">GLOW</div>
+            <div class="desc">GridLAB-D Open Workspace — the user-facing environment for building and running models.</div>
+          </div>
+          <div class="stack-card">
+            <div class="lbl">Pipelines</div>
+            <div class="name">OpenFIDO</div>
+            <div class="desc">Data pipeline tooling that feeds and processes Arras simulations end to end.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="kicker">What it's used for <span class="mono">/ 02</span></div>
+      <h2 class="display">Eight use cases the grid can't plan around without simulation.</h2>
+      <div class="uc-grid">
+        <div class="uc"><span class="num">01</span><div class="t">DER hosting capacity</div></div>
+        <div class="uc"><span class="num">02</span><div class="t">Tariff design</div></div>
+        <div class="uc"><span class="num">03</span><div class="t">End-use load electrification</div></div>
+        <div class="uc"><span class="num">04</span><div class="t">Extreme weather resilience</div></div>
+        <div class="uc"><span class="num">05</span><div class="t">Wildfire safety &amp; protection</div></div>
+        <div class="uc"><span class="num">06</span><div class="t">Peer-to-peer energy exchange</div></div>
+        <div class="uc"><span class="num">07</span><div class="t">Advanced load modeling &amp; forecasting</div></div>
+        <div class="uc"><span class="num">08</span><div class="t">High-performance scenario planning at scale</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="kicker">History <span class="mono">/ 03</span></div>
+      <h2 class="display">Two decades from research prototype to LF Energy project.</h2>
+      <div class="timeline">
+        <div class="tl-item">
+          <div class="tl-year">2002</div>
+          <div class="tl-title">PDSS demonstrated at PNNL</div>
+          <div class="tl-desc">An agent-based solver technology demonstration lays the groundwork for the engine.</div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-year">2007–2008</div>
+          <div class="tl-title">GridLAB-D funded and released</div>
+          <div class="tl-desc">DOE funds development based on PDSS; the first free, open-source release ships in 2008.</div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-year">2018</div>
+          <div class="tl-title">California Energy Commission funds HiPAS GridLAB-D</div>
+          <div class="tl-desc">SLAC National Accelerator Laboratory builds a commercial-grade version under CEC grant EPC-17-046.</div>
+        </div>
+        <div class="tl-item">
+          <div class="tl-year">2022</div>
+          <div class="tl-title">LF Energy adopts the project as Arras</div>
+          <div class="tl-desc">HiPAS GridLAB-D moves to a neutral open-source foundation under the name Arras Energy.</div>
+        </div>
+        <div class="tl-item now">
+          <div class="tl-year">2025</div>
+          <div class="tl-title">v4.3.1 "chiba-1" and GridChat</div>
+          <div class="tl-desc">A major release adds hosting-capacity, resilience, tariff, and electrification support — alongside GridChat, a GenAI copilot for modelers.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="kicker">New this release <span class="mono">/ 04</span></div>
+      <div class="spotlight">
+        <div>
+          <div class="kicker">GenAI copilot</div>
+          <h3 class="display">GridChat</h3>
+          <p>Built on AWS and powered by Amazon Bedrock, GridChat helps modelers navigate GLM syntax, troubleshoot simulations, and pull up-to-date documentation — without leaving the workflow. It's a copilot for the modeling language, not a replacement for the engine.</p>
+          <a class="btn ghost" style="border-color:var(--paper);color:var(--paper);" href="https://lfenergy.org/projects/arras/">Watch the GridChat webinar</a>
+        </div>
+        <div class="spot-diagram">
+          <div class="step"><span>modeler</span><span class="arrow">→</span><span>GridChat query</span></div>
+          <div class="step"><span>GridChat</span><span class="arrow">→</span><span>Bedrock LLM</span></div>
+          <div class="step"><span>Bedrock LLM</span><span class="arrow">→</span><span>GLM syntax help</span></div>
+          <div class="step"><span>GridChat</span><span class="arrow">→</span><span>live docs lookup</span></div>
+          <div class="step"><span>result</span><span class="arrow">→</span><span>faster simulation setup</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="kicker">Who it's for <span class="mono">/ 05</span></div>
+      <h2 class="display">One engine, several audiences with the same problem: no affordable way to model the grid at scale.</h2>
+      <div class="who-row">
+        <span class="chip">Power system researchers</span>
+        <span class="chip">Grid planners</span>
+        <span class="chip">Utility operators (IOU &amp; public)</span>
+        <span class="chip">Regulators &amp; policymakers</span>
+        <span class="chip">Software vendors</span>
+        <span class="chip">Students</span>
+      </div>
+    </div>
+  </section>
+
+  <section style="border-bottom:none;">
+    <div class="wrap">
+      <div class="kicker">Get involved <span class="mono">/ 06</span></div>
+      <h2 class="display">Run it, read it, or help build it.</h2>
+      <div class="involve-grid">
+        <div class="inv">
+          <div class="k">Install</div>
+          <div class="v">Docker, AWS, or GitHub Actions</div>
+          <a href="https://www.arras.energy">arras.energy →</a>
+        </div>
+        <div class="inv">
+          <div class="k">Code</div>
+          <div class="v">Source &amp; issue tracker</div>
+          <a href="https://github.com/arras-energy/gridlabd">github.com/arras-energy →</a>
+        </div>
+        <div class="inv">
+          <div class="k">Learn</div>
+          <div class="v">Docs &amp; tutorials</div>
+          <a href="https://docs.gridlabd.us/">docs.gridlabd.us →</a>
+        </div>
+        <div class="inv">
+          <div class="k">Discuss</div>
+          <div class="v">Community mailing list</div>
+          <a href="https://lists.lfenergy.org/g/arras-discussion">arras-discussion →</a>
+        </div>
+        <div class="inv">
+          <div class="k">Governance</div>
+          <div class="v">Technical Steering Committee</div>
+          <a href="https://github.com/arras-energy/tsc">arras-energy/tsc →</a>
+        </div>
+        <div class="inv">
+          <div class="k">SIG</div>
+          <div class="v">Grid Simulation &amp; Modeling</div>
+          <a href="https://lfenergy.org/groups/grid-simulation-and-modeling-sig/">Join the SIG →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap">
+    <footer>
+      <div>A project hosted by <strong>LF Energy</strong>, part of the Linux Foundation.</div>
+      <div class="mono">arras.energy · github.com/arras-energy · docs.gridlabd.us</div>
+    </footer>
+  </div>
+
+</body>
+</html>
