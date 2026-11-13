@@ -219,31 +219,26 @@
   .tl-title{font-weight:700;font-size:15.5px;margin-bottom:3px;}
   .tl-desc{font-size:14px;color:#4a5158;max-width:560px;}
 
-  /* ---------- Spotlight ---------- */
-  .spotlight{
+  /* ---------- Skills ---------- */
+  .skills-grid{
+    display:grid;
+    grid-template-columns:1.1fr .9fr;
+    gap:48px;
+    align-items:start;
+  }
+  .skills-grid p{font-size:15px;color:#2a343d;margin:0 0 14px;max-width:560px;}
+  .skills-list{margin:0 0 18px;padding:0;list-style:none;}
+  .skills-list li{font-size:14px;padding:7px 0;border-bottom:1px dashed var(--line);}
+  .skills-list code{font-family:"IBM Plex Mono",monospace;font-size:12.5px;color:var(--wire);}
+  .example{
     background:var(--ink);
     color:var(--paper);
-    border-radius:2px;
-    padding:40px 40px 36px;
-    display:grid;
-    grid-template-columns:1fr 1fr;
-    gap:36px;
-    align-items:center;
+    padding:22px 24px;
+    font-size:13px;
   }
-  .spotlight .kicker{color:var(--copper-soft);}
-  .spotlight h3{font-family:"Space Grotesk",sans-serif;font-size:26px;margin:0 0 14px;}
-  .spotlight p{font-size:14.5px;color:#c7cdd2;margin:0 0 18px;}
-  .spot-diagram{
-    font-family:"IBM Plex Mono",monospace;
-    font-size:12px;
-    background:#182531;
-    border:1px solid #2a3a47;
-    padding:18px;
-    color:#8fb3c4;
-  }
-  .spot-diagram .step{display:flex;gap:10px;padding:6px 0;border-bottom:1px dashed #2a3a47;}
-  .spot-diagram .step:last-child{border-bottom:none;}
-  .spot-diagram .arrow{color:var(--copper-soft);}
+  .example .lbl{font-size:11px;text-transform:uppercase;letter-spacing:.1em;color:var(--copper-soft);margin-bottom:10px;}
+  .example pre{margin:0 0 14px;white-space:pre-wrap;font-family:"IBM Plex Mono",monospace;font-size:12px;color:#8fb3c4;}
+  .example .note{font-size:13px;color:#c7cdd2;margin:0;}
 
   /* ---------- Stakeholders ---------- */
   .who-row{display:flex;flex-wrap:wrap;gap:10px;margin-top:8px;}
@@ -284,8 +279,8 @@
     .overview-grid{grid-template-columns:1fr;}
     .uc-grid{grid-template-columns:repeat(2,1fr);}
     .hero-meta{grid-template-columns:repeat(2,1fr);row-gap:20px;}
-    .spotlight{grid-template-columns:1fr;padding:30px 26px;}
     .involve-grid{grid-template-columns:1fr;}
+    .skills-grid{grid-template-columns:1fr;}
   }
   @media (prefers-reduced-motion: reduce){
     *{scroll-behavior:auto !important;}
@@ -326,22 +321,22 @@
       <div class="kicker">Overview <span class="mono">/ 01</span></div>
       <h2 class="display">A commercial-grade successor to GridLAB-D, now stewarded in the open.</h2>
       <div class="overview-grid">
-        <p class="body-lg">Arras began as GridLAB-D, developed for the U.S. Department of Energy by Pacific Northwest National Laboratory to study grid modernization. In 2018, the California Energy Commission funded SLAC National Accelerator Laboratory to harden it into HiPAS GridLAB-D — a commercial-grade simulation engine. LF Energy adopted the project in 2022 and renamed it Arras Energy, giving it a neutral, vendor-independent home for continued development.</p>
+        <p class="body-lg">Arras Energy began as GridLAB-D, developed for the U.S. Department of Energy by Pacific Northwest National Laboratory to study grid modernization. In 2018, the California Energy Commission funded SLAC National Accelerator Laboratory to harden it into HiPAS GridLAB-D — a commercial-grade simulation engine. LF Energy adopted the project in 2022 and renamed it Arras Energy, giving it a neutral, vendor-independent home for continued development.</p>
         <div>
           <div class="stack-card">
             <div class="lbl">Back end</div>
-            <div class="name">Arras (GridLAB-D)</div>
+            <div class="name">Arras Energy</div>
             <div class="desc">The simulation engine — large-scale, unbalanced three-phase distribution power flow.</div>
           </div>
           <div class="stack-card">
             <div class="lbl">Front end</div>
             <div class="name">GLOW</div>
-            <div class="desc">GridLAB-D Open Workspace — the user-facing environment for building and running models.</div>
+            <div class="desc">The user-facing environment for building and running models.</div>
           </div>
           <div class="stack-card">
             <div class="lbl">Pipelines</div>
             <div class="name">OpenFIDO</div>
-            <div class="desc">Data pipeline tooling that feeds and processes Arras simulations end to end.</div>
+            <div class="desc">Data pipeline tooling that feeds and processes Arras Energy simulations end to end.</div>
           </div>
         </div>
       </div>
@@ -387,13 +382,18 @@
         </div>
         <div class="tl-item">
           <div class="tl-year">2022</div>
-          <div class="tl-title">LF Energy adopts the project as Arras</div>
+          <div class="tl-title">LF Energy adopts the project as Arras Energy</div>
           <div class="tl-desc">HiPAS GridLAB-D moves to a neutral open-source foundation under the name Arras Energy.</div>
         </div>
-        <div class="tl-item now">
+        <div class="tl-item">
           <div class="tl-year">2025</div>
-          <div class="tl-title">v4.3.1 "chiba-1" and GridChat</div>
-          <div class="tl-desc">A major release adds hosting-capacity, resilience, tariff, and electrification support — alongside GridChat, a GenAI copilot for modelers.</div>
+          <div class="tl-title">v4.3.1 "chiba-1"</div>
+          <div class="tl-desc">A major release adds hosting-capacity, resilience, tariff, and electrification support.</div>
+        </div>
+        <div class="tl-item now">
+          <div class="tl-year">2026</div>
+          <div class="tl-title">v4.3.17</div>
+          <div class="tl-desc">Arras Energy release 4.3.17, tagged in August 2026.</div>
         </div>
       </div>
     </div>
@@ -401,28 +401,7 @@
 
   <section>
     <div class="wrap">
-      <div class="kicker">New this release <span class="mono">/ 04</span></div>
-      <div class="spotlight">
-        <div>
-          <div class="kicker">GenAI copilot</div>
-          <h3 class="display">GridChat</h3>
-          <p>Built on AWS and powered by Amazon Bedrock, GridChat helps modelers navigate GLM syntax, troubleshoot simulations, and pull up-to-date documentation — without leaving the workflow. It's a copilot for the modeling language, not a replacement for the engine.</p>
-          <a class="btn ghost" style="border-color:var(--paper);color:var(--paper);" href="https://lfenergy.org/projects/arras/">Watch the GridChat webinar</a>
-        </div>
-        <div class="spot-diagram">
-          <div class="step"><span>modeler</span><span class="arrow">→</span><span>GridChat query</span></div>
-          <div class="step"><span>GridChat</span><span class="arrow">→</span><span>Bedrock LLM</span></div>
-          <div class="step"><span>Bedrock LLM</span><span class="arrow">→</span><span>GLM syntax help</span></div>
-          <div class="step"><span>GridChat</span><span class="arrow">→</span><span>live docs lookup</span></div>
-          <div class="step"><span>result</span><span class="arrow">→</span><span>faster simulation setup</span></div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section>
-    <div class="wrap">
-      <div class="kicker">Who it's for <span class="mono">/ 05</span></div>
+      <div class="kicker">Who it's for <span class="mono">/ 04</span></div>
       <h2 class="display">One engine, several audiences with the same problem: no affordable way to model the grid at scale.</h2>
       <div class="who-row">
         <span class="chip">Power system researchers</span>
@@ -431,6 +410,34 @@
         <span class="chip">Regulators &amp; policymakers</span>
         <span class="chip">Software vendors</span>
         <span class="chip">Students</span>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="kicker">For Claude users <span class="mono">/ 05</span></div>
+      <h2 class="display">Load Arras Energy skills into Claude.</h2>
+      <div class="skills-grid">
+        <div>
+          <p>The <a href="https://github.com/arras-energy/claude">arras-energy/claude</a> repository holds skills: folders of markdown instructions, reference tables, and starting templates. Users add them to Claude Code or claude.ai, and the instructions are loaded into the text input when a request matches a skill's description.</p>
+          <ul class="skills-list">
+            <li><code>arras-energy</code> — installing, running, and finding your way around the repositories</li>
+            <li><code>gridlabd-glm</code> — writing and debugging <code>.glm</code> models</li>
+            <li><code>gridlabd-data</code> — weather, feeders, libraries, converters, and tools</li>
+            <li><code>arras-development</code> — building, testing, extending, and contributing</li>
+          </ul>
+          <p>Output is generated text: users review models and run them in Arras Energy before relying on results.</p>
+        </div>
+        <div class="example">
+          <div class="lbl">Try it</div>
+          <pre>git clone https://github.com/arras-energy/claude ~/arras-claude
+mkdir -p ~/.claude/skills
+ln -s ~/arras-claude/skills/* ~/.claude/skills/</pre>
+          <div class="lbl">Then enter a text input such as</div>
+          <pre>Write a GLM model of a 4.16 kV feeder with 20 houses and a recorder on the substation meter.</pre>
+          <p class="note">The request matches <code>gridlabd-glm</code>, so its syntax reference and feeder template are loaded and Claude generates a draft <code>.glm</code> file to run with <code>gridlabd</code>.</p>
+        </div>
       </div>
     </div>
   </section>
@@ -453,7 +460,7 @@
         <div class="inv">
           <div class="k">Learn</div>
           <div class="v">Docs &amp; tutorials</div>
-          <a href="https://docs.gridlabd.us/">docs.gridlabd.us →</a>
+          <a href="https://docs.arras.energy/">docs.arras.energy →</a>
         </div>
         <div class="inv">
           <div class="k">Discuss</div>
@@ -477,7 +484,7 @@
   <div class="wrap">
     <footer>
       <div>A project hosted by <strong>LF Energy</strong>, part of the Linux Foundation.</div>
-      <div class="mono">arras.energy · github.com/arras-energy · docs.gridlabd.us</div>
+      <div class="mono">arras.energy · github.com/arras-energy · docs.arras.energy</div>
     </footer>
   </div>
 
